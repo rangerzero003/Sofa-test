@@ -13,7 +13,7 @@ const main = async () => {
       resolvers: {
         Query: {
           accounts: (_, __, { request }: any) => {
-            const testValue = request.headers.get("clientId");
+            const testValue = request.headers.get("Authorization");
             return `This is the test value: ${testValue}`;
           }
         }
