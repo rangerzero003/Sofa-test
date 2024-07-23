@@ -1,0 +1,33 @@
+{
+  "name": "sofa-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rangerzero003/Sofa-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rangerzero003/Sofa-test/issues"
+  },
+  "homepage": "https://github.com/rangerzero003/Sofa-test#readme",
+  "dependencies": {
+    "@graphql-yoga/plugin-sofa": "^3.6.1",
+    "graphql": "^16.8.1",
+    "graphql-yoga": "^5.6.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "~5.1.0",
+    "@types/node": "^20.14.2"
+  }
+}
